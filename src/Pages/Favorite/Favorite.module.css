@@ -1,0 +1,47 @@
+.saveMovie{
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.saveMovie h1{
+   margin-bottom: 1rem;
+}
+
+.saveMovie span{
+   font-size: 1.2rem;
+}
+
+.saveMovie ul{
+   width: 35rem;
+}
+
+.saveMovie ul li{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 1rem;
+}
+
+.saveMovie div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.saveMovie button{
+   cursor: pointer;
+   background-color: var(--black);
+   color: var(--white);
+   padding: 8px 10px ;
+   border-radius: 4px;
+}
+
+.saveMovie a{
+   background-color: var(--orange);
+   padding: 8px 10px ;
+   border-radius: 4px;
+   color: black;
+   margin-right: 1rem;
+}

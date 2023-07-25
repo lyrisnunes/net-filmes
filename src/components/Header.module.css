@@ -1,0 +1,38 @@
+header{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   background: var(--black);
+}
+
+.logo{
+   font-size: 1.6rem;
+   color: #fff;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.logo span{
+   color: var(--orange);
+}
+
+.favorite{
+   cursor: pointer;
+   background-color: #fff;
+   color: #121212;
+   padding: 5px 14px;
+   border-radius: 4px;
+}
+
+.favorite:hover{
+   background-color: var(--orange);
+   color: var(--black);
+}
+
+@media(max-width:600px){
+   html{
+      font-size: 80%;
+   }
+}
